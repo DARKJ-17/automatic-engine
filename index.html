@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/img1.jpeg" alt="Pastelería D'ROSSY">
+                <h1>Pasteleria  D'ROSSY</h1>
+                
+            </div>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#recommendations">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="myModal" class="modal"></div>
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Bienvenido a nuestra Pastelería</h2>
+            <p>Disfruta de nuestros deliciosos pasteles y postres del dìa a dìa.</p>
+
+            <section id="gallery">
+                <h2>lunes</h2>
+                <div class="gallery-container">
+                    <!-- Imágenes de los pasteles -->
+                    <img src="img/img2.jpeg" alt="Pastel 1">
+                    <img src="img/img4.jpeg" alt="Pastel 2">
+                    
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenidos a Pastelería D'ROSSY</h1>
+            <p>¡Donde cada pastel es una obra de arte! </p>
+            <a href="#gallery" class="btn">Ver Galería</a>
+        </div>
+    </section>
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En Pastelería D'ROSSY, nos especializamos en crear pasteles únicos y deliciosos para todas las ocasiones.</p>
+    </section>
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Pasteles Personalizados</h3>
+                <p>Diseñamos pasteles según tus deseos.</p>
+            </div>
+            <div class="service">
+                <h3>Eventos Especiales</h3>
+                <p>Pasteles para bodas, cumpleaños y más.</p>
+            </div>
+            <div class="service">
+                <h3>Con Envios a domicilio</h3>
+                <p>Te lo llevamos hasta la puerta.</p>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-container">
+            <!-- Imágenes de los pasteles -->
+            <img src="img/img1.jpeg" alt="Pastel 1">
+            <img src="img/img2.jpeg" alt="Pastel 2">
+            <img src="img/img3.jpeg" alt="Pastel 3">
+            <img src="img/img4.jpeg" alt="Pastel 4">
+            <img src="img/img5.jpeg" alt="Pastel 5">
+            <img src="img/img6.jpeg" alt="Pastel 6">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <div class="contact-container">
+            <a href="https://wa.me/943917074" class="whatsapp-btn">
+                <img src="img/images (5).jpeg" alt="WhatsApp">
+                Contáctanos por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <div class="container">
+            <h2>Recomendaciones</h2>
+            <form id="recommendationForm">
+                <input type="text" id="recommendationName" placeholder="Tu nombre" required>
+                <textarea id="recommendationText" placeholder="Tu recomendación" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="recommendationList"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <div class="contact-container">
+            <a href="https://wa.me/934449146" class="whatsapp-btn">
+                <img src="img/images (5).jpeg" alt="WhatsApp">
+                Contáctanos por WhatsApp
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pastelería D'ROSSY. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
